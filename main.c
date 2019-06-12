@@ -284,7 +284,7 @@ void show()
     {
         
         printf("\t\t%-16d %-16s %-16s",food[i].num,food[i].name,food[i].nature);
-        printf("%16.2f %16d %16s",food[i].price,food[i].amount,food[i].remarks);
+        printf("%-16.2f %-16d %-16s",food[i].price,food[i].amount,food[i].remarks);
         
         printf("\n");
         
